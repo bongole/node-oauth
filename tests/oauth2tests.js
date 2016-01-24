@@ -2,7 +2,6 @@ var vows = require('vows'),
     assert = require('assert'),
     DummyResponse= require('./shared').DummyResponse,
     DummyRequest= require('./shared').DummyRequest,
-    https = require('https'),
     OAuth2= require('../lib/oauth2').OAuth2,
     url = require('url');
 
